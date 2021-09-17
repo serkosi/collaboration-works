@@ -1,0 +1,99 @@
+{
+  "document": {
+    "type": "Teklif",
+    "agent": "Allianz",
+    "id": "0001070011963334/1"
+  },
+  "form": {
+    "date": {
+      "date": "2021-09-11 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "Europe/Istanbul"
+    },
+    "startDate": {
+      "date": "2021-09-11 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "Europe/Istanbul"
+    },
+    "finishDate": {
+      "date": "2021-09-11 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "Europe/Istanbul"
+    },
+    "documentId": "0001070011963334/1",
+    "agent": {
+      "name": "5063 Genç Sigorta Ve Reasürans Brokerliği A.Ş.",
+      "address": "",
+      "phone": "",
+      "fax": ""
+    },
+    "insured": {
+      "name": "Ali Veli",
+      "??(Yakınlık Derecesi)": "Kendisi",
+      "birthYear": "2000",
+      "gener": "Kadın",
+      "city": "Adana",
+      "transferType": "Yeni İş"
+    },
+    "payments": [
+      {
+        "name": "Ali Veli",
+        "??(Sağlık Net Primi)": "1660.15",
+        "total": "1660.15"
+      }
+    ],
+    "network": "Turuncu Network",
+    "details": [
+      {
+        "name": "Yatarak Tedaviler",
+        "contracted": {
+          "payment": "Limitsiz",
+          "paymentRate": "100%"
+        },
+        "noDeal": {
+          "payment": "1 SUT",
+          "paymentRate": "100%"
+        }
+      },
+      {
+        "name": "Evde Bakım ve Tedaviler",
+        "contracted": {
+          "payment": "30000",
+          "paymentRate": "100%"
+        },
+        "noDeal": {
+          "payment": "Geçersiz",
+          "paymentRate": "100%"
+        }
+      }
+    ],
+     "paymentPlan":[
+        {
+          "no":"Peşinat",
+          "term":{
+                  "date": "2021-09-11 12:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/Istanbul"
+                },
+                "amount":"211,15"
+        },
+        {
+          "no":"2. Taksit",
+          "term":{
+                  "date": "2021-09-11 12:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/Istanbul"
+                },
+                "amount":"211,15"
+        }
+      ],
+      "paymentPlanTotal":"",
+      "discounts":[
+        {
+          "description":"Tamamlayıcı sağlık kampanyası",
+          "rate":"25%",
+          "name":" Ali Veli"
+        }]
+
+  }
+}
