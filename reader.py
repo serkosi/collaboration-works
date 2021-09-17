@@ -36,6 +36,10 @@ pytesseract.image_to_string(img, config=custom_config)
 # 13    Raw line. Treat the image as a single text line, bypassing hacks that are Tesseract-specific.
 # To change your page segmentation mode, change the --psm argument in your custom config string to any of the above mentioned mode codes.
 
+custom_config = r'-c tessedit_char_whitelist=abcdefghijklmnopqrstuvwxyz --psm 6'
+pytesseract.image_to_string(img, config=custom_config)
+
+
 # Preprocess image functions
     # get grayscale image
 def get_grayscale(image):
