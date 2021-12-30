@@ -1,0 +1,114 @@
+{
+  "document": {
+    "type": "Policy",
+    "agent": "Allianz",
+    "id": "0001071005020292",
+    "oldId":"TD0001071004316731"
+  },
+  "policy":{
+    "documentId": "0001071005020292",
+    "documentOldId":"TD0001071004316731",
+    "period":"1 YIL",
+    "date": {
+      "date": "2021-09-11 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "Europe/Istanbul"
+    },
+    "startDate": {
+      "date": "2021-09-11 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "Europe/Istanbul"
+    },
+    "finishDate": {
+      "date": "2021-09-11 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "Europe/Istanbul"
+    },
+    "agent": {
+      "name": "5063 Genç Sigorta Ve Reasürans Brokerliği A.Ş."
+    },
+    "insured": {
+      "name": "Ali Veli",
+      "??(Yakınlık Derecesi)": "Kendisi",
+      "birthYear": "2000",
+      "gener": "Kadın",
+      "city": "Adana",
+      "payment": "2.778,64",
+      "totalPayment":"2.778,64"
+    },
+    "contacts":[
+      {
+        "name":"Ali Veli",
+        "phone":"****",
+        "mail":"*****",
+        "address":"****"
+      },
+      {
+        "name":"Ahmet Konyalı",
+        "phone":"****",
+        "mail":"*****",
+        "address":"****"
+      }
+    ],
+    "information":"Sn. Fatma Yüksel (Müşteri No 137966807, Kart No 10056982 ) Ömür Boyu Yenileme Garantisi alıp alamayacağınız hususu, 2022-2023 poliçe dönemi sonunda değerlendirilecektir..",
+    "payments": [
+      {
+        "name": "Ali Veli",
+        "??(Sağlık Net Primi)": "1660.15",
+        "total": "1660.15"
+      }
+    ],
+    "paymentPlan":[
+        {
+          "no":"Peşinat",
+          "term":{
+                  "date": "2021-09-11 12:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/Istanbul"
+                },
+                "amount":"211,15"
+        },
+        {
+          "no":"2. Taksit",
+          "term":{
+                  "date": "2021-09-11 12:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/Istanbul"
+                },
+                "amount":"211,15"
+        }
+      ],
+      "paymentPlanTotal":"1021231.123",
+      "details": [
+      {
+        "name": "Yatarak Tedaviler",
+        "contracted": {
+          "payment": "Limitsiz",
+          "paymentRate": "100%"
+        },
+        "noDeal": {
+          "payment": "1 SUT",
+          "paymentRate": "100%"
+        }
+      },
+      {
+        "name": "Evde Bakım ve Tedaviler",
+        "contracted": {
+          "payment": "30000",
+          "paymentRate": "100%"
+        },
+        "noDeal": {
+          "payment": "Geçersiz",
+          "paymentRate": "100%"
+        }
+      }
+    ],
+    "discounts":[
+        {
+          "description":"Tamamlayıcı sağlık kampanyası",
+          "rate":"25%",
+          "name":" Ali Veli"
+        }]
+
+  }
+}
