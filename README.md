@@ -1,1 +1,1 @@
-## In this repo, some of the projects are given which performed for different disciplines.
+## In this repo, some of the collaborative projects are given which performed for different disciplines.
